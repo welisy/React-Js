@@ -1,0 +1,25 @@
+.LeftMenu {
+  position: fixed;
+  background: #2e2e59;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.LeftMenu h1 {
+  color: aquamarine;
+}
+
+.LeftMenu ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#main {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
+
+
+
